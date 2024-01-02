@@ -1,0 +1,8 @@
+#!bin/bash
+
+BUFFETT="Life is like a snowball. The important thing is finding wet snow and a really long hill."
+
+ISAY=$BUFFET
+ISAY=change1${ISAY[@]snow/foot}
+ISAY=change2${ISAY[@]//snow/}
+ISAY=change3${ISAY[@]finding/getting}
