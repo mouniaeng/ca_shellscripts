@@ -1,0 +1,3 @@
+#!bin/bash
+
+TOTAL= $(($COST_PINEAPPLE + 2 * $COST_BANANA + 3 * $COST_WATERMELON + $COST_BASKET))
