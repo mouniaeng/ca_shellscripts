@@ -1,0 +1,10 @@
+#!bin/bash
+
+for gg in ${NUMBERS[@]}; do
+	
+    if [ $gg == 237 ]; then
+ 	break;
+    elif [ $(($gg % 2)) == 0 ]; then
+	echo $gg
+    fi
+done
